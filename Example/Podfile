@@ -1,0 +1,6 @@
+use_frameworks!
+target 'BRCFastTest_Tests' do
+  pod 'BRCFastTest', :path => '../'
+  
+  
+end
