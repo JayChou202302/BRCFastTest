@@ -1,0 +1,43 @@
+PODS:
+  - BRCFastTest (0.1.0):
+    - FLEX
+    - Masonry
+    - MBProgressHUD
+    - SDWebImage
+    - YYKit
+  - FLEX (5.22.10)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - SDWebImage (5.19.4):
+    - SDWebImage/Core (= 5.19.4)
+  - SDWebImage/Core (5.19.4)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - BRCFastTest (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FLEX
+    - Masonry
+    - MBProgressHUD
+    - SDWebImage
+    - YYKit
+
+EXTERNAL SOURCES:
+  BRCFastTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BRCFastTest: 88b1a8585583ab6509d8356cd5d7e3046e6ef99b
+  FLEX: f21ee4f498eed3f8a1eded66b21939fd3b7a22ce
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  SDWebImage: 066c47b573f408f18caa467d71deace7c0f8280d
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: 0260f175e0b8c0d10b00df106fa9dc1393c12a9d
+
+COCOAPODS: 1.15.2

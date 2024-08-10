@@ -1,6 +1,5 @@
 # BRCFastTest
 
-[![CI Status](https://img.shields.io/travis/zhixiongsun/BRCFastTest.svg?style=flat)](https://travis-ci.org/zhixiongsun/BRCFastTest)
 [![Version](https://img.shields.io/cocoapods/v/BRCFastTest.svg?style=flat)](https://cocoapods.org/pods/BRCFastTest)
 [![License](https://img.shields.io/cocoapods/l/BRCFastTest.svg?style=flat)](https://cocoapods.org/pods/BRCFastTest)
 [![Platform](https://img.shields.io/cocoapods/p/BRCFastTest.svg?style=flat)](https://cocoapods.org/pods/BRCFastTest)
@@ -22,7 +21,7 @@ pod 'BRCFastTest'
 
 ## Author
 
-zhixiongsun, zhixiongsun@trip.com
+zhixiongsun, jaychou202302@gmail.com
 
 ## License
 
