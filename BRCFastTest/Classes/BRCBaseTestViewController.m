@@ -8,11 +8,11 @@
 #import "BRCBaseTestViewController.h"
 #import "UIColor+BRCFastTest.h"
 #import "NSString+BRCTestLocalizable.h"
-#import <Masonry/Masonry.h>
-#import <YYKit/NSString+YYAdd.h>
-#import <YYKit/YYKitMacro.h>
-#import <YYKit/UIControl+YYAdd.h>
-#import <YYKit/UIView+YYAdd.h>
+#import "NSString+YYAdd.h"
+#import "YYKitMacro.h"
+#import "UIControl+YYAdd.h"
+#import "UIView+YYAdd.h"
+#import "Masonry.h"
 
 #define kSafeAreaBottomSpcing [UIApplication sharedApplication].keyWindow.safeAreaInsets.bottom
  

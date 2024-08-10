@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/JayChou202302/BRCFastTest.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'BRCFastTest/Classes/**/*'
   
@@ -27,9 +27,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'Masonry'
-   s.dependency 'SDWebImage'
-   s.dependency 'YYKit'
-   s.dependency 'MBProgressHUD'
    s.dependency 'FLEX', :configurations => ['Debug']
 end

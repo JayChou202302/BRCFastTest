@@ -7,7 +7,7 @@
 
 #import "BRCTestAppDelegate.h"
 #import "BRCDebugCenter.h"
-#import <SDWebImage/SDWebImage.h>
+#import "SDImageCache.h"
 
 @implementation BRCTestAppDelegate
 
