@@ -60,7 +60,7 @@
     if ([self.componentTitle isNotBlank]) {
         UILabel *titleLabel = [[UILabel alloc] init];
         titleLabel.numberOfLines = 1;
-        titleLabel.text = self.componentTitle;
+        titleLabel.text = [NSString brctest_localizableWithKey:self.componentTitle];
         titleLabel.textColor = [UIColor brtest_black];
         titleLabel.font = [UIFont systemFontOfSize:25.0 weight:UIFontWeightBold];
         [self addSubView:titleLabel];
@@ -74,7 +74,7 @@
         UILabel *descriptionLabel = [[UILabel alloc] init];
         descriptionLabel.numberOfLines = 0;
         descriptionLabel.textAlignment = NSTextAlignmentLeft;
-        descriptionLabel.text = self.componentDescription;
+        descriptionLabel.text = [NSString brctest_localizableWithKey:self.componentDescription];
         descriptionLabel.textColor = [UIColor brtest_secondaryBlack];
         descriptionLabel.font = [UIFont systemFontOfSize:18.0 weight:UIFontWeightMedium];
         [self addSubView:descriptionLabel];
@@ -90,7 +90,7 @@
     if ([self.componentFunctions count] > 0) {
         [self.componentFunctions enumerateObjectsUsingBlock:^(NSString * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
             if ([obj isNotBlank]) {
-                UILabel *label = [self createFunctionLabel:[NSString stringWithFormat:@"%ld.%@",idx+1,obj]];
+                UILabel *label = [self createFunctionLabel:[NSString stringWithFormat:@"%ld.%@",idx+1,[NSString brctest_localizableWithKey:obj]]];
                 [label mas_makeConstraints:^(MASConstraintMaker *make) {
                     make.top.equalTo(self.lastView.mas_bottom).offset(5);
                     make.leading.equalTo(self.scrollView);
