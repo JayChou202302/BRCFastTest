@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BRCFastTest'
-  s.version          = '0.1.1'
+  s.version          = '0.2.0'
   s.summary          = 'A Private TestTool For BRCKit / BRCFounation'
   s.homepage         = 'https://github.com/JayChou202302/BRCFastTest'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -17,7 +17,8 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/JayChou202302/BRCFastTest.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '13.0'
+  s.swift_versions = '4.0'
 
   s.source_files = 'BRCFastTest/Classes/**/*'
   
@@ -26,6 +27,6 @@ Pod::Spec.new do |s|
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'FLEX', :configurations => ['Debug']
+  s.frameworks = 'UIKit', 'SwiftUI', 'FLEX'
+  s.dependency 'FLEX', :configurations => ['Debug']
 end

@@ -56,6 +56,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (NSString *)componentTitle;
 - (NSString *)componentDescription;
+- (NSArray *)componentTag;
 - (NSArray *)componentFunctions;
 - (CGFloat)leftPadding;
 - (CGFloat)keyBoardBottomSpace;

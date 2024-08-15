@@ -1,5 +1,5 @@
 PODS:
-  - BRCFastTest (0.1.0):
+  - BRCFastTest (0.2.0):
     - FLEX
   - FLEX (5.22.10)
 
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BRCFastTest: d33a6b9ec74b172c990546516968d64005e935de
+  BRCFastTest: 81ccfdf0ef96f48a8cae9c8e31a8b301c439b40d
   FLEX: f21ee4f498eed3f8a1eded66b21939fd3b7a22ce
 
 PODFILE CHECKSUM: 0260f175e0b8c0d10b00df106fa9dc1393c12a9d

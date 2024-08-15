@@ -431,6 +431,10 @@
     return @"";
 }
 
+- (NSArray *)componentTag {
+    return @[];
+}
+
 - (NSArray *)componentFunctions {
     return @[];
 }

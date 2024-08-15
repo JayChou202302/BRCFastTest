@@ -1,6 +1,6 @@
 {
   "name": "BRCFastTest",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "A Private TestTool For BRCKit / BRCFounation",
   "homepage": "https://github.com/JayChou202302/BRCFastTest",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/JayChou202302/BRCFastTest.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "12.0"
