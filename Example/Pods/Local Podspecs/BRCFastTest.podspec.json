@@ -1,6 +1,6 @@
 {
   "name": "BRCFastTest",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "summary": "A Private TestTool For BRCKit / BRCFounation",
   "homepage": "https://github.com/JayChou202302/BRCFastTest",
   "license": {
@@ -12,14 +12,23 @@
   },
   "source": {
     "git": "https://github.com/JayChou202302/BRCFastTest.git",
-    "tag": "0.2.0"
+    "tag": "0.2.1"
   },
   "platforms": {
-    "ios": "12.0"
+    "ios": "13.0"
   },
+  "swift_versions": "4.0",
   "source_files": "BRCFastTest/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "SwiftUI",
+    "FLEX"
+  ],
   "dependencies": {
     "FLEX": [
+
+    ],
+    "BRCFlexTagBox": [
 
     ]
   },
@@ -27,5 +36,6 @@
     "FLEX": [
       "debug"
     ]
-  }
+  },
+  "swift_version": "4.0"
 }

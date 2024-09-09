@@ -1,6 +1,8 @@
 PODS:
-  - BRCFastTest (0.2.0):
+  - BRCFastTest (0.2.1):
+    - BRCFlexTagBox
     - FLEX
+  - BRCFlexTagBox (0.1.0)
   - FLEX (5.22.10)
 
 DEPENDENCIES:
@@ -8,6 +10,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - BRCFlexTagBox
     - FLEX
 
 EXTERNAL SOURCES:
@@ -15,7 +18,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BRCFastTest: 81ccfdf0ef96f48a8cae9c8e31a8b301c439b40d
+  BRCFastTest: 50404dc7b58ad2311be7c48bd470d2ecd6fc2f71
+  BRCFlexTagBox: d713c2c417a3573d7d7e236750e90ad936616262
   FLEX: f21ee4f498eed3f8a1eded66b21939fd3b7a22ce
 
 PODFILE CHECKSUM: 0260f175e0b8c0d10b00df106fa9dc1393c12a9d
