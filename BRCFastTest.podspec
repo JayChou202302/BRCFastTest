@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BRCFastTest'
-  s.version          = '0.2.1'
+  s.version          = '0.2.2'
   s.summary          = 'A Private TestTool For BRCKit / BRCFounation'
   s.homepage         = 'https://github.com/JayChou202302/BRCFastTest'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
